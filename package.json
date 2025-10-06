@@ -1,8 +1,9 @@
 {
-  "name": "vscode-extension",
+  "name": "bounty-extension",
   "displayName": "Bounty",
   "description": "Bounty VSCode Extension",
   "version": "0.0.1",
+  "publisher": "bountydotnew",
   "private": true,
   "engines": {
     "vscode": "^1.90.0"
