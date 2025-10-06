@@ -61,7 +61,7 @@
     "webview:build": "cd webview && npm run build",
     "webview:dev": "cd webview && npm start",
     "webview:clean": "cd webview && npm run clean",
-    "vscode:build": "vsce package --no-dependencies",
+    "vscode:build": "npx @vscode/vsce package --no-dependencies",
     "postinstall": "node ./scripts/install-webview.js"
   },
   "dependencies": {
